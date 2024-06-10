@@ -44,14 +44,14 @@ body {
 }
 
 .heading_container h2 {
-  color: #fff;
+  color: #015f9e;
   position: relative;
   font-weight: bold;
   margin-bottom: 0;
 }
 
 .heading_container h2 span {
-  color: #FF9BE6;
+  color: #015f9e;
 }
 
 .heading_container p {
@@ -137,7 +137,7 @@ a:focus {
 
 .header_section {
   position: sticky;
-  background-color: #E00782;
+  background-color: #FFD6E9;
   padding: 15px 0;
 }
 
@@ -149,7 +149,7 @@ a:focus {
 .navbar-brand span {
   font-weight: bold;
   font-size: 24px;
-  color: #ffffff;
+  color: #FF9BE6;
 }
 
 .custom_nav-container {
@@ -251,7 +251,7 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
-  background-color: #E00782;
+  background-color: #FFD6E9;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -285,7 +285,7 @@ a:focus {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: #ffffff;
+  color: #67A3D9;
 }
 
 .slider_section .detail-box p {
@@ -310,7 +310,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #FF9BE6;
+  background-color: #67A3D9;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -418,7 +418,8 @@ a:focus {
           align-items: center;
   text-align: center;
   margin-top: 45px;
-  background-color: #f8e7ee;
+  /* background-color: #67A3D9; */
+  background-color: #eef5fb;
   padding: 20px;
   border-radius: 5px;
 }
@@ -482,11 +483,11 @@ a:focus {
 }
 
 .service_section .btn-box a:hover {
-  background-color: #af0967;
+  background-color: #F3C4D6;
 }
 
 .about_section {
-  background: #E00782;
+  background: #FFD6E9;
   color: #ffffff;
 }
 
@@ -550,7 +551,7 @@ a:focus {
   min-width: 120px;
   min-height: 120px;
   border-radius: 100%;
-  border: 5px solid #00204a;
+  border: 5px solid #FF9BE6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -606,7 +607,7 @@ a:focus {
 .team_section {
   text-align: center;
   justify-content: center;
-  background-color: #E00782;
+  background-color: #FFD6E9;
   color: grey;
 }
 
@@ -736,6 +737,7 @@ a:focus {
 .client_section .box .client_id .client_info h6 {
   font-weight: 600;
   margin-bottom: 5px;
+  color: #FF9BE6;
 }
 
 .client_section .box .client_id .client_info p {
@@ -743,6 +745,8 @@ a:focus {
   font-size: 15px;
   font-size: 14px;
   margin-bottom: 10px;
+  color: #BEBEBE;
+
 }
 
 .client_section .box .detail-box {
@@ -786,6 +790,16 @@ a:focus {
 }
 
 /* client section end */
+
+
+/* goal section start */
+.goal_section{
+  background-color: #FFD6E9;
+  color: #ffffff;
+}
+/* goal section end */
+
+
 .info_section {
   background-color: #fff;
   color: #7a7878;
