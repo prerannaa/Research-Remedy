@@ -289,8 +289,8 @@ a:focus {
 }
 
 .slider_section .detail-box p {
-  color: #fefefe;
-  font-size: 14px;
+  color: #5B5255;
+  font-size: 1em;
 }
 
 .slider_section .detail-box .btn-box {
@@ -570,6 +570,7 @@ a:focus {
 }
 
 .why_section .box h5 {
+  color: #5B5255;
   font-weight: bold;
   margin-bottom: 10px;
 }
