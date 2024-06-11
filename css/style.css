@@ -44,15 +44,12 @@ body {
 }
 
 .heading_container h2 {
-  color: #015f9e;
+  color: #af0967;
   position: relative;
   font-weight: bold;
   margin-bottom: 0;
 }
 
-.heading_container h2 span {
-  color: #015f9e;
-}
 
 .heading_container p {
   margin-top: 10px;
@@ -149,7 +146,7 @@ a:focus {
 .navbar-brand span {
   font-weight: bold;
   font-size: 24px;
-  color: #FF9BE6;
+  color: #af0967;
 }
 
 .custom_nav-container {
@@ -162,7 +159,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
-  color: #ffffff;
+  color: #af0967;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
@@ -551,7 +548,7 @@ a:focus {
   min-width: 120px;
   min-height: 120px;
   border-radius: 100%;
-  border: 5px solid #FF9BE6;
+  border: 5px solid #af0967;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
