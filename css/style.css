@@ -610,8 +610,7 @@ a:focus {
 
 
 .team_section .heading_container {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
+
           justify-content: center;
 }
 
@@ -619,7 +618,7 @@ a:focus {
   padding: 0 15px;
 }
 
-.team_section .team_container .box {
+.team_section .team_container .team_box {
   padding: 35px 0 0 0;
   border-radius: 5px;
   overflow: hidden;
@@ -629,50 +628,40 @@ a:focus {
   background: #ffffff;
 }
 
-.team_section .team_container .box .img-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.team_section .team_container .team_box .img-box {
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
 }
 
-.team_section .team_container .box .img-box img {
+.team_section .team_container .team_box .img-box img {
   width: 120px;
   border-radius: 100%;
   border: 5px solid #ffffff;
 }
 
-.team_section .team_container .box .detail-box {
+.team_section .team_container .team_box .team-detail-box {
   margin: 25px 0;
 }
 
-.team_section .team_container .box .detail-box h5 {
+.team_section .team_container .box .team-detail-box h5 {
   color: #FF9BE6;
   font-weight: 600;
   position: relative;
 }
 
-.team_section .team_container .box .social_box {
+.team_section .team_container .team_box .social_box {
   padding: 10px 45px 20px 45px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.team_section .team_container .box .social_box a {
+.team_section .team_container .team_box .social_box a {
   color: #7a7878;
   font-size: 22px;
 }
 
-.team_section .team_container .box .social_box a:hover {
+.team_section .team_container .team_box .social_box a:hover {
   color: #00bbf0;
 }
 
@@ -680,28 +669,24 @@ a:focus {
   border-top: 1px solid #dee2e6;
 }
 
-.team_section .team_container .detailbox ul {
-  color: grey;
-}
 
-/* Add this to your existing CSS */
-.box {
+.team_box {
   position: relative; /* Ensure the box is positioned relative to its container */
   overflow: hidden; /* Hide overflow content */
   transition: transform 0.3s, max-height 0.3s; /* Smooth transitions */
 }
 
-.box:hover {
+.team_box:hover {
   transform: scale(1.05); /* Slightly scale up the card */
 }
 
-.detail-box {
+.team-detail-box {
   transition: max-height 0.3s; /* Smooth transition for max-height */
   max-height: 200px; /* Set initial max height to hide more-info content */
   overflow: hidden; /* Hide overflow content */
 }
 
-.box:hover .detail-box {
+.box:hover .team-detail-box {
   max-height: 400px; /* Expand the max height to show more-info content */
 }
 
@@ -709,7 +694,7 @@ a:focus {
   display: none; /* Initially hide the additional points */
 }
 
-.box:hover .more-info {
+.team_box:hover .more-info {
   display: block; /* Display the additional points on hover */
 }
 
