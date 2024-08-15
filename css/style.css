@@ -524,6 +524,11 @@ a:focus {
   background-color: #af0967;
 }
 
+.why_container {
+  display: flex;
+  justify-content: space-around; /* Adjusts spacing between items */
+}
+
 .why_section .box {
   margin-top: 45px;
   display: flex;
