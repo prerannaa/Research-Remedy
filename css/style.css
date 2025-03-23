@@ -340,39 +340,8 @@ a:focus {
 
 .slider_section .img-box img {
   width: 100%;
-  -webkit-animation: upDown 5s infinite;
-          animation: upDown 5s infinite;
 }
 
-@-webkit-keyframes upDown {
-  0% {
-    -webkit-transform: translateY(-45px);
-            transform: translateY(-45px);
-  }
-  50% {
-    -webkit-transform: translateY(45px);
-            transform: translateY(45px);
-  }
-  100% {
-    -webkit-transform: translateY(-45px);
-            transform: translateY(-45px);
-  }
-}
-
-@keyframes upDown {
-  0% {
-    -webkit-transform: translateY(-45px);
-            transform: translateY(-45px);
-  }
-  50% {
-    -webkit-transform: translateY(45px);
-            transform: translateY(45px);
-  }
-  100% {
-    -webkit-transform: translateY(-45px);
-            transform: translateY(-45px);
-  }
-}
 
 .slider_section .carousel-indicators {
   position: unset;
